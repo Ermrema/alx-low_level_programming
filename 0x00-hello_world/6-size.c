@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - code starts here
- * Description: prints size of data types
- * return:0
+ * main - Entry point
+ * Description: prints size of dat types
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
