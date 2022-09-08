@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
- * main - main function
- * printf: gives output to screen
- *
- * return:0 is success
+ * main - entry point
+ * Descriptioin: prints to the standard output
+ * Return: 0
  */
 int main(void)
 {

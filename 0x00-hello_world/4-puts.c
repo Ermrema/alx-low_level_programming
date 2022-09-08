@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - starts execution
- *return:0 success
- *
- * puts: prints to stdoutput
+ *Puts:function to print to stdoutput
+ * Description: prints 
+ *return:0
  */
 int main(void)
 {
