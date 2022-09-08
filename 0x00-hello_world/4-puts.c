@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *main - starts execution
- *Puts:function to print to stdoutput
- * Description: prints 
- *return:0
+ * main - entry point
+ * Description: print to stdoutput
+ * Return:0
  */
 int main(void)
 {
