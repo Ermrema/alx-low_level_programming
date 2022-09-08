@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- * main start execution
+ *main - starts execution
+ *return:0 success
  *
- * return 0 as success
- *
- * description code will return 0 in success
+ * puts: prints to stdoutput
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
