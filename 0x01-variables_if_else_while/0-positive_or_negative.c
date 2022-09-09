@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -
- * description:
+ * main - main function
+ * Description: prints positive and negative
  * return:0
  */
 int main(void)
