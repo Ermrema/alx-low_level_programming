@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _isalpha - checks alphabetic character
  * Description: checks for lowercase or uppercase letters
