@@ -7,10 +7,12 @@
 
 int _abs(int)
 {
-	int i, n;
+	int i;
 
-	i = n % 10;
-
-	_putchar('i');
-	return (0);
+	if (n < 0)
+	{
+		n = -n;
+		
+		return (n);
+	}
 }
