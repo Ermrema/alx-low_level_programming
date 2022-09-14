@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int n;
+	int n, j;
 
 	unsigned long int sum1, sum2, sum3;
 
@@ -15,22 +15,26 @@ int main(void)
 	sum2 = 0;
 	sum3 = 0;
 
-	for (n = 0; n < 1024; ++n)
+	for (n = 1; n < 1024; n++)
 	{
-		if ((n % 3)  == 0)
+		if ((n % 3)  == 0 || (n % 5) ==0)
 		{
 			sum1 = sum1 + n;
+	
 		}
 	
 	}
-	for (n = 0; n < 1024; ++n)
+	/**
+	for (j = 1; j < 1024; j++)
 	{
-		if ((n % 5) == 0)
+		while ((j % 5) == 0)
 		{
-			sum2 = sum2 + n;
+			sum2 = sum2 + j;
+			j++;
 		}
 	}
 	sum3 = sum1 + sum2;
-	printf("%lu\n", sum3);
+	*/
+	printf("%lu\n", sum1);
 	return (0);
 }
