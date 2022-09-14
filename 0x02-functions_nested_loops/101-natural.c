@@ -7,13 +7,11 @@
 
 int main(void)
 {
-	int n, j;
+	int n;
 
-	unsigned long int sum1, sum2, sum3;
+	unsigned long int sum1;
 
 	sum1 = 0;
-	sum2 = 0;
-	sum3 = 0;
 
 	for (n = 1; n < 1024; n++)
 	{
