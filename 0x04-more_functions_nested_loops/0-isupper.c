@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
- * _isupper -main function
+ * _isupper - main function
  * @c: parameter
- * Return: 1, 0
+ * Return: 1 if upper, else retun 0
  */
 
 int _isupper(int c)
 {
 	char ch;
-	
+
 	if (ch >= 'A' && ch <= 'Z')
 	{
-		_putchar("The character is upper", ch);
+		return (1);
 	}
-	return (1);
-	
-	if (ch >= 'a' && ch <= 'z')
+	else
 	{
-		_putchar("The character is lower", ch);
+		return (0);
 	}
-	return (0);
 }
