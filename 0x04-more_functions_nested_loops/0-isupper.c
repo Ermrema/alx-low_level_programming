@@ -6,7 +6,7 @@
  * Return: 1 if upper, else retun 0
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
 	char ch;
 
