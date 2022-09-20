@@ -1,13 +1,19 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-	int i = 50;
-	int *h;
+	char str[15]= " hello ";
+	char str1[6]= "world";
+	char str2[10];
 
-	h = &i;
+	
+	strcat(str2, str);
+	strcpy(str2, str1);
 
-	printf("the value in address is %d\n", *h);
+
+	printf("this is string 1 %s \n", str2);
+	
 
 }
 
